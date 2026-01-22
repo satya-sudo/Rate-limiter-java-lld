@@ -22,4 +22,5 @@ public class TokenBucket {
         this.tokens = Math.min(capacity, newTokenCount);
         this.lastRefillTime = now;
     }
+    
 }
